@@ -1,0 +1,37 @@
+name: broom_broom
+description: "A Flutter project for robot control and camera streaming."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-180.3.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  web_socket_channel: ^3.0.1
+  provider: ^6.0.0
+  json_annotation: ^4.7.0
+  camera: ^0.10.0+1
+  cupertino_icons: ^1.0.8
+  video_player: ^2.2.14
+  flutter_mjpeg: ^2.0.4
+  flutter_speed_dial: ^7.0.0
+  google_fonts: ^4.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  # For code generation if you use json_serializable
+  build_runner: ^2.1.10
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, uncomment and specify your assets here:
+  # assets:
+  #   - images/robot.png
